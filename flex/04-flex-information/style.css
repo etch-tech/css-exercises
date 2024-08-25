@@ -8,9 +8,52 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
 }
+
+.plants {
+  display: flex;
+  margin: 32px;
+  gap: 52px;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+}
+
+.barberry-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chili-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pepper-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.saffron-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* after reviewing the solution i see my mistake.
+It seems obvious now but yes all my rules set for each of these
+classes for the plants could have all had the same class name.
+I would have save time using a single class name since they all 
+have the same rules applied to them. */
 
 /* do not edit this footer */
 .footer {
