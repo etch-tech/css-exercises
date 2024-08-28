@@ -16,10 +16,22 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -33,6 +45,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +80,14 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
+
+/* .group {
+  display: flex;
+  flex-wrap: wrap;
+} 
+  this destroys EVERYTHING */
